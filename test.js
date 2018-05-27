@@ -45,4 +45,12 @@ describe('object-to-class', () => {
     myInst.message = 'hi'
     assert.equal(myInst.getmessage(), 'hi')
   })
+  it('binds property', () => {
+    var MyClass = o2c({getmessage: function () {
+      return this.message
+    }, message: 'hi'}, 'MyClass')
+    var myInst = new MyClass()
+    assert.equal(myInst.message, 'hi')
+    assert.equal(myInst.getmessage(), 'hi')
+  })
 })
