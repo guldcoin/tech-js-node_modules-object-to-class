@@ -1,8 +1,8 @@
 {
   "name": "object-to-class",
   "main": "./object-to-class.js",
-  "version": "0.1.0",
-  "description": "Convert any Javascript object into an es6 class",
+  "version": "0.1.1",
+  "description": "Generate a dynamically named es6 class from any JS object.",
   "repository": "https://github.com/isysd/object-to-class",
   "author": "isysd <public@iramiller.com>",
   "license": "MIT",
