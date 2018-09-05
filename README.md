@@ -1,12 +1,18 @@
 # object-to-class
 
-[![npm](https://img.shields.io/npm/v/object-to-class.svg)](https://www.npmjs.com/package/object-to-class) [![Build Status](https://travis-ci.org/isysd/object-to-class.svg?branch=master)](https://travis-ci.org/isysd/object-to-class) [![Coverage Status](https://coveralls.io/repos/github/isysd/object-to-class/badge.svg?branch=master)](https://coveralls.io/github/isysd/object-to-class?branch=master)
+[![source](https://img.shields.io/badge/source-bitbucket-blue.svg)](https://bitbucket.org/guld/tech-js-node_modules-object-to-class) [![issues](https://img.shields.io/badge/issues-bitbucket-yellow.svg)](https://bitbucket.org/guld/tech-js-node_modules-object-to-class/issues) [![documentation](https://img.shields.io/badge/docs-guld.tech-green.svg)](https://guld.tech/lib/object-to-class.html)
 
-Generate a dynamically named ES6 class from any JavaScript object.
+[![node package manager](https://img.shields.io/npm/v/object-to-class.svg)](https://www.npmjs.com/package/object-to-class) [![travis-ci](https://travis-ci.org/guldcoin/tech-js-node_modules-object-to-class.svg)](https://travis-ci.org/guldcoin/tech-js-node_modules-object-to-class?branch=guld) [![lgtm](https://img.shields.io/lgtm/grade/javascript/b/guld/tech-js-node_modules-object-to-class.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/b/guld/tech-js-node_modules-object-to-class/context:javascript) [![david-dm](https://david-dm.org/guldcoin/tech-js-node_modules-object-to-class/status.svg)](https://david-dm.org/guldcoin/tech-js-node_modules-object-to-class) [![david-dm](https://david-dm.org/guldcoin/tech-js-node_modules-object-to-class/dev-status.svg)](https://david-dm.org/guldcoin/tech-js-node_modules-object-to-class?type=dev)
 
-### install
+Generate a dynamically named es6 class from any JS object.
 
-`npm install object-to-class`
+### Install
+
+##### Node
+
+```sh
+npm i object-to-class
+```
 
 ### Usage
 
@@ -36,3 +42,7 @@ mysubinst instanceof MyClass // true
 mysubinst.prop // my property
 mysubinst.fn() // my function
 ```
+
+### License
+
+MIT Copyright isysd <public@iramiller.com>
